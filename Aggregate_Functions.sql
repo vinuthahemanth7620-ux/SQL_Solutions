@@ -28,7 +28,7 @@ select sum(Salary) as Total_Salary
  from Employees;
  
  -- Count the number of employees working in department 20.
- select COUNT(*) as Tiotal_Count
+ select COUNT(*) as Total_Count
  from Employees
  where DeptID = 20;
  
