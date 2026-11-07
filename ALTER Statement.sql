@@ -9,7 +9,7 @@ Course varchar(50),
 city varchar(50));
 -- alter
 alter table STUDENTC
-add email varchar(50);
+add column emailID varchar(50);
 
 -- Add a phone_number column to the students table.
 alter table STUDENTC
@@ -25,7 +25,7 @@ rename column email to Student_Mail ;
 
 -- Modify the data type of student_email to VARCHAR(150).
 alter table STUDENTC
-modify student_Mail varchar(150);
+modify column student_Mail varchar(150);
 
 -- Rename the students table to student_details.
 alter table STUDENTC
