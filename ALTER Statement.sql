@@ -13,7 +13,7 @@ add column emailID varchar(50);
 
 -- Add a phone_number column to the students table.
 alter table STUDENTC
-add Phone_Number varchar(15);
+add column Phone_Number varchar(15);
 
 -- Remove the phone_number column.
 alter table STUDENTC
