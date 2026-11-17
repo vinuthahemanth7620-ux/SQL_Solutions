@@ -9,13 +9,15 @@ alter table EMP
 drop primary key,
 add primary key(Ename);
 
+
 # Create a table with a composite primary key using Order_ID and Product_ID.
 create table EMPY(
      Oname varchar(20),
      Order_ID varchar(20),
      dept varchar(20) not null,
      constraint pk_EMP Primary key (Oname, Order_ID));
-     
+
+ 
 # Remove the primary key from an existing table.
 alter table EMP 
 drop primary key;
