@@ -11,11 +11,11 @@ select Empname , DeptID as Department_ID
 from Employees;
 
 -- Use a table alias e to retrieve employee name and salary.
-select e.Empname , e.Salary 
+select e.Empname ,e.Salary 
 from Employees as e ;
 
 -- Display employee name and salary together in a single output column using CONCAT().
-select CONCAT(Empname, ' - ' , CAST(Salary as Char)) as Employee_Details
+select CONCAT(Empname, '-' , CAST(Salary as Char)) as Employee_Details
 from Employees;
 
 
