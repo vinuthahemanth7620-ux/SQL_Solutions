@@ -5,7 +5,7 @@ where EmpID = 7369;
 
 -- Change the job of employee number 7369 to ANALYST.
 update Employees
-set job = 'Analyst'
+set job = ' Analyst '
 where EmpID = 7369;
 
 -- Increase the salary of all employees in department 10 by 10%.
@@ -20,7 +20,7 @@ where commission is null;
 
 -- Change both the salary and job of employee number 7839.
 update Employees
-set Salary = 100000 , job = 'Manager'
+set Salary = 100000 , job = ' Manager '
 where EmpID = 7839;
 
 -- Increase the salary by 5% for employees working as CLERK.
